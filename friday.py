@@ -16,7 +16,7 @@ id = int(input(f'{nome} digite a senha de acesso: '))
 
 #tempo
 import requests
-API = 'e917f37910fa5b188d95588523e79a39'
+API = 'Adicione sua API'
 cidade = input('Digite a cidade para saber a previsão do tempo: ')
 site = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={API}&lang=pt_br"
 requisicao = requests.get(site)
